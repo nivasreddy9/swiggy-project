@@ -1,0 +1,24 @@
+{
+  "name": "swiggy-react",
+  "version": "1.0.0",
+  "description": "food app by nivas",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+     "start":"parcel index.html",
+    "build":"parcel build index.html"
+  },
+  "keywords": [
+    "react",
+    "react-dom"
+  ],
+  "author": "NIVAS REDDY",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.13.3"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}
