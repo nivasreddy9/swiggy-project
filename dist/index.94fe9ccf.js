@@ -18595,7 +18595,9 @@ $parcel$ReactRefreshHelpers$fc8e.prelude(module);
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "LOGO_URL", ()=>(0, _images.LOGO_URL));
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _images = require("../UTILS/images");
 const Header = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "header",
@@ -18603,15 +18605,15 @@ const Header = ()=>{
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 className: "logo",
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                    src: "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/food-delivery-logo-design-template-13877dc6d3f56de562396be44ab8d5f0_screen.jpg?ts=1628241889"
+                    src: (0, _images.LOGO_URL)
                 }, void 0, false, {
                     fileName: "components/Header.js",
-                    lineNumber: 5,
+                    lineNumber: 8,
                     columnNumber: 4
                 }, undefined)
             }, void 0, false, {
                 fileName: "components/Header.js",
-                lineNumber: 4,
+                lineNumber: 7,
                 columnNumber: 5
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -18624,12 +18626,12 @@ const Header = ()=>{
                                 children: "Home"
                             }, void 0, false, {
                                 fileName: "components/Header.js",
-                                lineNumber: 9,
+                                lineNumber: 12,
                                 columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "components/Header.js",
-                            lineNumber: 9,
+                            lineNumber: 12,
                             columnNumber: 9
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -18638,12 +18640,12 @@ const Header = ()=>{
                                 children: "About Us"
                             }, void 0, false, {
                                 fileName: "components/Header.js",
-                                lineNumber: 10,
+                                lineNumber: 13,
                                 columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "components/Header.js",
-                            lineNumber: 10,
+                            lineNumber: 13,
                             columnNumber: 9
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -18652,12 +18654,12 @@ const Header = ()=>{
                                 children: "Contact Us"
                             }, void 0, false, {
                                 fileName: "components/Header.js",
-                                lineNumber: 11,
+                                lineNumber: 14,
                                 columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "components/Header.js",
-                            lineNumber: 11,
+                            lineNumber: 14,
                             columnNumber: 9
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -18666,29 +18668,29 @@ const Header = ()=>{
                                 children: "Cart"
                             }, void 0, false, {
                                 fileName: "components/Header.js",
-                                lineNumber: 12,
+                                lineNumber: 15,
                                 columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "components/Header.js",
-                            lineNumber: 12,
+                            lineNumber: 15,
                             columnNumber: 9
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "components/Header.js",
-                    lineNumber: 8,
+                    lineNumber: 11,
                     columnNumber: 5
                 }, undefined)
             }, void 0, false, {
                 fileName: "components/Header.js",
-                lineNumber: 7,
+                lineNumber: 10,
                 columnNumber: 1
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "components/Header.js",
-        lineNumber: 3,
+        lineNumber: 6,
         columnNumber: 1
     }, undefined);
 };
@@ -18702,7 +18704,7 @@ $RefreshReg$(_c, "Header");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"gkKU3":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../UTILS/images":"5VE6u"}],"gkKU3":[function(require,module,exports,__globalThis) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -18877,7 +18879,15 @@ function registerExportsForReactRefresh(module1) {
 },{"7422ead32dcc1e6b":"786KC","630b62916b1ae0e7":"4SQxb"}],"4SQxb":[function(require,module,exports,__globalThis) {
 module.exports = JSON.parse("{\"name\":\"react-refresh\",\"description\":\"React is a JavaScript library for building user interfaces.\",\"keywords\":[\"react\"],\"version\":\"0.14.2\",\"homepage\":\"https://reactjs.org/\",\"bugs\":\"https://github.com/facebook/react/issues\",\"license\":\"MIT\",\"files\":[\"LICENSE\",\"README.md\",\"babel.js\",\"runtime.js\",\"cjs/\",\"umd/\"],\"main\":\"runtime.js\",\"exports\":{\".\":\"./runtime.js\",\"./runtime\":\"./runtime.js\",\"./babel\":\"./babel.js\",\"./package.json\":\"./package.json\"},\"repository\":{\"type\":\"git\",\"url\":\"https://github.com/facebook/react.git\",\"directory\":\"packages/react\"},\"engines\":{\"node\":\">=0.10.0\"},\"devDependencies\":{\"react-16-8\":\"npm:react@16.8.0\",\"react-dom-16-8\":\"npm:react-dom@16.8.0\",\"scheduler-0-13\":\"npm:scheduler@0.13.0\"}}");
 
-},{}],"jPaGW":[function(require,module,exports,__globalThis) {
+},{}],"5VE6u":[function(require,module,exports,__globalThis) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "LOGO_URL", ()=>LOGO_URL);
+parcelHelpers.export(exports, "FOOD_URL", ()=>FOOD_URL);
+const LOGO_URL = "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/food-delivery-logo-design-template-13877dc6d3f56de562396be44ab8d5f0_screen.jpg?ts=1628241889";
+const FOOD_URL = "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/";
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"jPaGW":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$f062 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -20895,14 +20905,6 @@ $RefreshReg$(_c, "Products");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../UTILS/images":"5VE6u"}],"5VE6u":[function(require,module,exports,__globalThis) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "LOGO_URL", ()=>LOGO_URL);
-parcelHelpers.export(exports, "FOOD_URL", ()=>FOOD_URL);
-const LOGO_URL = "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/food-delivery-logo-design-template-13877dc6d3f56de562396be44ab8d5f0_screen.jpg?ts=1628241889";
-const FOOD_URL = "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/";
-
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["aQL8O","l459D","gnOKY"], "gnOKY", "parcelRequire94c2")
+},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../UTILS/images":"5VE6u"}]},["aQL8O","l459D","gnOKY"], "gnOKY", "parcelRequire94c2")
 
 //# sourceMappingURL=index.94fe9ccf.js.map
